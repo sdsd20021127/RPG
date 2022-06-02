@@ -1,0 +1,16 @@
+name: RPG
+api: [3.0.0,4.0.0]
+author: sdsd16
+version: 1.0.0
+description: RPG System
+main: sdsd16\rpg\Main
+
+commands:
+  rpg:
+    description: RPG Main Comamnd
+    permission: rpg.command
+
+permissions:
+  rpg.command:
+    default: true  
+    
